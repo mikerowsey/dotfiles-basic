@@ -1,7 +1,7 @@
 set number
 set relativenumber
 syntax on
-colorscheme evening
+colorscheme blue
 set expandtab
 set tabstop=4
 set shiftwidth=4
@@ -9,7 +9,6 @@ set softtabstop=4
 set smarttab
 set autoindent
 set smartindent
-set cursorline
 set incsearch
 set ignorecase
 set smartcase

@@ -7,6 +7,7 @@ PROMPT_COMMAND="history -a; $PROMPT_COMMAND"
 export LESS=-R
 export EDITOR=vim
 export VISUAL=vim
+export TERM=xterm-256color
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
