@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-set -u  # no 'set -e' so one minor failure doesn't kill the whole script
-
 DOTFILES_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 backup_file() {
