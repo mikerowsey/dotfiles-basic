@@ -1,0 +1,14 @@
+# Keep the prompt clean
+add_newline = false
+
+# Show user@machine always
+[username]
+show_always = true
+format = "[$user]($style)"
+style_user = "bright-white"
+style_root = "red bold"
+
+[hostname]
+ssh_only = false
+format = "@[$hostname]($style) "
+style = "bright-white"

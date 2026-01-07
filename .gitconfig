@@ -1,22 +1,38 @@
 [user]
-    name = Michael Rowsey
+    name = Michael N. Rowsey
     email = mike@rowsey.org
+
+[init]
+    defaultBranch = main
+
+[core]
+    editor = nvim
+    autocrlf = input
+    excludesfile = ~/.gitignore_global
+    pager = less -FRSX
 
 [color]
     ui = auto
 
-[core]
-    editor = vim
+[pull]
+    rebase = false
 
-[alias]
-    co = checkout
-    br = branch
-    st = status -sb
-    ci = commit
-    lg = log --oneline --graph --decorate --all
+[fetch]
+    prune = true
 
 [push]
     default = simple
 
-[init]
-    defaultBranch = main
+[diff]
+    tool = vimdiff
+
+[merge]
+    tool = vimdiff
+    conflictstyle = zdiff3
+
+[alias]
+    st = status
+    co = checkout
+    br = branch
+    ci = commit
+    lg = log --oneline --graph --decorate --all
